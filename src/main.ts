@@ -8,6 +8,8 @@ import 'normalize.css/normalize.css'
 import installElementPlus from './plugins/element'
 // 全局 css
 import '@/styles/index.scss'
+// svg icons
+import initSvgIcon from '@/icons/index'
 
 const app = createApp(App)
 
@@ -15,4 +17,5 @@ app
   .use(store)
   .use(router)
   .use(installElementPlus)
+  .use(initSvgIcon)
   .mount('#app')
