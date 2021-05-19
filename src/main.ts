@@ -6,6 +6,8 @@ import store from './store'
 import 'normalize.css/normalize.css'
 // element-plus
 import installElementPlus from './plugins/element'
+// 全局 css
+import '@/styles/index.scss'
 
 const app = createApp(App)
 
